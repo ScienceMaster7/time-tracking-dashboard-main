@@ -1,0 +1,6 @@
+:root {
+  --main-background: hsl(226, 43%, 10%);
+  --component-background: hsl(235, 46%, 20%);
+  --task-hover: hsl(235, 45%, 61%);
+  --user-background: hsl(246, 80%, 60%);
+}

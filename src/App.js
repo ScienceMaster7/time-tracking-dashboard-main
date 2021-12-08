@@ -1,9 +1,14 @@
 import "./App.css";
+import "../src/styles/colors.css";
+
+import User from "./Components/User";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <main>
+        <User />
+      </main>
     </div>
   );
 }
