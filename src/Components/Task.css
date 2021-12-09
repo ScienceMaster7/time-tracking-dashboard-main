@@ -1,0 +1,74 @@
+.task-upper-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1rem;
+}
+
+#a {
+  background-color: hsl(15, 100%, 70%);
+}
+
+#b {
+  background-color: hsl(195, 74%, 62%);
+}
+
+#c {
+  background-color: hsl(15, 100%, 70%);
+}
+
+#d {
+  background-color: hsl(145, 58%, 55%);
+}
+
+#e {
+  background-color: hsl(43, 84%, 65%);
+}
+
+#f {
+  background-color: hsl(264, 64%, 52%);
+}
+
+.task-image {
+  padding: 0.5rem;
+  height: 40%;
+  width: 40%;
+  align-self: flex-end;
+}
+.task-container {
+  background-color: var(--component-background);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.task-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.task-title {
+  padding: 1rem;
+  font-size: 18px;
+}
+
+.taskbutton {
+  border-style: unset;
+  font-size: 2rem;
+  background-color: var(--component-background);
+}
+
+.button-image {
+  position: relative;
+  bottom: 10px;
+}
+
+.current-time {
+  padding: 1rem;
+  font-size: 3rem;
+}
+
+.previous-time {
+  padding: 1rem;
+  font-size: 16px;
+}
