@@ -1,7 +1,6 @@
 .task-upper-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   border-radius: 1rem;
 }
 
@@ -30,15 +29,15 @@
 }
 
 .task-image {
-  padding: 0.5rem;
-  height: 40%;
-  width: 40%;
+  padding: 0 1rem 0 0;
+  height: 35%;
+  width: 35%;
   align-self: flex-end;
 }
 .task-container {
   background-color: var(--component-background);
   border-radius: 1rem;
-  padding: 1rem;
+  padding-right: 1rem;
 }
 
 .task-header {
@@ -64,8 +63,9 @@
 }
 
 .current-time {
-  padding: 1rem;
+  padding: 0 2rem 0 1rem;
   font-size: 3rem;
+  font-weight: 100;
 }
 
 .previous-time {

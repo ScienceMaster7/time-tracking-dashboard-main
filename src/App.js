@@ -25,12 +25,14 @@ function App() {
   console.log(timeFrame);
   return (
     <div className="App">
-      <main>
+      <main className="content">
         <section className="user-component">
           <div className="user-container">
             <img src={jeremy} alt="Jeremy" className="user-image" />
-            <p className="user-component-text">report for</p>
-            <h1 className="user-name">Jeremy Robson</h1>
+            <p className="user-component-text">Report for</p>
+            <h1 className="user-name">
+              Jeremy <br /> Robson
+            </h1>
           </div>
           <button
             className="timeframe"
@@ -57,9 +59,10 @@ function App() {
             Monthly
           </button>
         </section>
-        <div className="Tasks-upper-container">
-          {taskData.length > 0 && (
-            <div className="Tasks-lower-container">
+
+        {taskData.length > 0 && (
+          <section className="Tasks-outer-container">
+            <div className="Tasks-inner-container">
               <Task
                 data={taskData[0]}
                 timeframe={timeFrame}
@@ -81,6 +84,8 @@ function App() {
                 Id={"c"}
                 dots={dots}
               />
+            </div>
+            <div className="Tasks-inner-container">
               <Task
                 data={taskData[3]}
                 timeframe={timeFrame}
@@ -103,8 +108,8 @@ function App() {
                 dots={dots}
               />
             </div>
-          )}
-        </div>
+          </section>
+        )}
       </main>
     </div>
   );
